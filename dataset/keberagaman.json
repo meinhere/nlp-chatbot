@@ -1,0 +1,582 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Halo",
+        "Hai",
+        "Hola",
+        "Wassap",
+        "Yuhuu",
+        "Apakah ini chatbot keragaman budaya Indonesia di pulau Jawa ?"
+      ],
+      "responses": [
+        "Halo, selamat datang di chatbot keragaman budaya Indonesia - CultBot",
+        "Selamat datang di chatbot keragaman budaya Indonesia - CultBot",
+        "Hai!! CultBot disini ada yang bisa dibantu?",
+        "Halooo CultBot siap membantu kamu",
+        "Haii, Selamat datang di chatbot keragaman budaya Indonesia",
+        "Hola, gimana keadaannya saat ini?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dah",
+        "Dadah",
+        "Bye",
+        "Byee",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Bai",
+        "See you"
+      ],
+      "responses": [
+        "Bye!",
+        "Dadahh!",
+        "Good bye!",
+        "Dahh, semoga harimu menyenangkan yaa!",
+        "Sampai jumpa lagi!",
+        "See u! Senang bisa membantu"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": ["Dengan senang hati :)", "Sama-sama yaa"]
+    },
+    {
+      "tag": "pencipta_cultbot",
+      "patterns": [
+        "Siapa pembuatmu?",
+        "Cult, yang buat kamu siapa sih?",
+        "Siapa penciptamu, Cult?"
+      ],
+      "responses": [
+        "CultBot diciptakan oleh mahasiswa yang memiliki ide kreatif dan semangat yang luar biasa walaupun banyak rintangan dan tantangan tapi mereka berhasil menciptakan saya saat ini",
+        "Pembuat CultBot dari mahasiswa Universitas Trunojoyo Madura",
+        "Penciptaku berasal dari seorang mahasiswa yang kreatif, sehingga saya bisa aktif saat ini!"
+      ]
+    },
+    {
+      "tag": "suku_bangsa_jawa_barat",
+      "patterns": ["Suku bangsa apakah yang menempati provinsi Jawa Barat"],
+      "responses": [" sunda"]
+    },
+    {
+      "tag": "pakaian_adat_jawa_barat",
+      "patterns": [" Pakaian adat apakah yang khas dengan Jawa Barat"],
+      "responses": [" Kebaya sunda"]
+    },
+    {
+      "tag": "seni_tari_jawa_barat",
+      "patterns": ["Sebutkan seni tari yang ada di Jawa Barat"],
+      "responses": ["Tari Merak, Jaipong"]
+    },
+    {
+      "tag": "alat_musik_tradisional_jawa_barat",
+      "patterns": [" Sebutkan alat musik tradisional berasal dari Jawa Barat"],
+      "responses": ["Angklung, gembyung"]
+    },
+    {
+      "tag": "hewan_endemik_jawa_barat",
+      "patterns": ["Sebutkan hewan endemik yang berhabitat di Jawa Barat"],
+      "responses": [" Macan tutul jawa"]
+    },
+    {
+      "tag": "bahasa_masyarakat_jawa_barat",
+      "patterns": ["Sebutkan bahasa yang digunakan oleh masyarakat Jawa Barat"],
+      "responses": [" Sunda."]
+    },
+    {
+      "tag": "lagu_daerah_jawa_barat",
+      "patterns": ["Sebutkan lagu daerah yang berasal dari Jawa Barat"],
+      "responses": ["Bubuy bulan, manuk dadali"]
+    },
+    {
+      "tag": "makanan_khas_jawa_barat",
+      "patterns": ["Sebutkan makanan yang menjadi ciri khas dari Jawa Barat"],
+      "responses": ["Dodol, tahu sumedang,."]
+    },
+    {
+      "tag": "cerita_rakyat_dari_jawa_barat",
+      "patterns": [
+        " Sebutkan salah satu cerita rakyat yang berasal dari Jawa Barat"
+      ],
+      "responses": ["Sangkuriang, asal usul Tangkubanperahu"]
+    },
+    {
+      "tag": "rumah_adat_provinsi_jawa_barat",
+      "patterns": [
+        " Rumah adat apakah yang menjadi ciri khas dari Provinsi Jawa Barat"
+      ],
+      "responses": ["Rumah kasepuhan"]
+    },
+    {
+      "tag": "tumbuhan_endemik_dari_jawa_barat",
+      "patterns": ["Sebutkan tumbuhan endemik dari Jawa Barat"],
+      "responses": ["gandaria."]
+    },
+    {
+      "tag": "hasil_bumi_jawa_barat",
+      "patterns": ["Hasil bumi apakah yang dihasilkan di Jawa Barat"],
+      "responses": ["Teh, cengkeh, karet"]
+    },
+    {
+      "tag": "upacara_adat_jawa_barat",
+      "patterns": ["Sebutkan upacara adat yang ada di Jawa Barat"],
+      "responses": [" Ngaruwat bumi, nenjrang bumi"]
+    },
+    {
+      "tag": "taman_nasional_jawa_barat",
+      "patterns": ["Sebutkan salah satu taman nasional yang ada di Jawa Barat"],
+      "responses": [" Taman Nasional Gunung Ciremai"]
+    },
+    {
+      "tag": "tahun_jawa_barat_dibentuk",
+      "patterns": ["Pada tahun berapakah Provinsi Jawa Barat di bentuk"],
+      "responses": [" 19 Agustus 1945"]
+    },
+    {
+      "tag": "kain_khas_dari_jawa_barat",
+      "patterns": ["Sebutkan kain yang khas dari Jawa Barat"],
+      "responses": ["Kain batik megamendung, kain batik ciamis."]
+    },
+    {
+      "tag": "tempat_wisata_jawa_barat",
+      "patterns": [
+        "sebutkan salah satu tempat wisata yang paling terkenal di Provinsi Jawa Barat"
+      ],
+      "responses": ["Kawah putih, Keraton Kasepuhan"]
+    },
+    {
+      "tag": "suku_bangsa_provinsi_jawa_tengah",
+      "patterns": ["Suku bangsa apakah yang menempati provinsi Jawa Tengah"],
+      "responses": ["Jawa"]
+    },
+    {
+      "tag": "pakaian_adat_jawa_tengah",
+      "patterns": ["Pakaian adat apakah yang khas dengan Jawa Tengah"],
+      "responses": ["kebaya"]
+    },
+    {
+      "tag": "senjata_daerah_jawa_tengah",
+      "patterns": ["Sebutkan senjata daerah yang ada di Jawa Tengah"],
+      "responses": ["Keris jawa."]
+    },
+    {
+      "tag": "seni_tari_jawa_tengah",
+      "patterns": ["Sebutkan seni tari yang ada di Jawa Tengah"],
+      "responses": ["Serimpi, gambyong"]
+    },
+    {
+      "tag": "alat_musik_tradisional_jawa_tengah",
+      "patterns": ["Sebutkan alat musik tradisional berasal dari Jawa Tengah"],
+      "responses": ["gamelan"]
+    },
+    {
+      "tag": "hewan_endemik_jawa_tengah",
+      "patterns": ["Sebutkan hewan endemik yang berhabitat di Jawa Tengah"],
+      "responses": ["Kepudang kuduk hitam"]
+    },
+    {
+      "tag": "bahasa_jawa_tengah",
+      "patterns": [
+        "Sebutkan bahasa yang digunakan oleh masyarakat Jawa Tengah"
+      ],
+      "responses": [" jawa"]
+    },
+    {
+      "tag": "pahlawan_jawa_tengah",
+      "patterns": ["Sebutkan pahlawan yang berasal dari Jawa Tengah"],
+      "responses": ["Ki Hajar Dewantar, Jendral Ahmad Yani"]
+    },
+    {
+      "tag": "lagu_daerah_jawa_tengah",
+      "patterns": ["Sebutkan lagu daerah yang berasal dari Jawa Tengah"],
+      "responses": ["Gambang suling, lir ilir, padhang Bulan"]
+    },
+    {
+      "tag": "makanan_khas_jawa_tengah",
+      "patterns": ["Sebutkan makanan yang menjadi ciri khas dari Jawa Tengah"],
+      "responses": ["Selat Solo, Lumpia, lontong krubyuk"]
+    },
+    {
+      "tag": "cerita_rakyat_jawa_tengah",
+      "patterns": [
+        "Sebutkan salah satu cerita rakyat yang berasal dari Jawa Tengah"
+      ],
+      "responses": ["Roro Jonggrang, Buto Ijo"]
+    },
+    {
+      "tag": "rumah_adat_jawa_tengah",
+      "patterns": [
+        "Rumah adat apakah yang menjadi ciri khas dari Provinsi Jawa Tengah"
+      ],
+      "responses": [" Rumah Joglo"]
+    },
+    {
+      "tag": "tumbuhan_endemik_dari_jawa_tengah",
+      "patterns": ["Sebutkan tumbuhan endemik dari Jawa Tengah"],
+      "responses": [" Kantil"]
+    },
+    {
+      "tag": "hasil_bumi_di_jawa_tengah",
+      "patterns": ["Hasil bumi apakah yang dihasilkan di Jawa Tengah"],
+      "responses": ["Kedelai, kapulaga, beras hitam"]
+    },
+    {
+      "tag": "upacara_adat_jawa_tengah",
+      "patterns": ["Sebutkan upacara adat yang ada di Jawa Tengah"],
+      "responses": [" Mitoni, grebeg suro"]
+    },
+    {
+      "tag": "taman_nasional_jawa_tengah",
+      "patterns": [
+        " Sebutkan salah satu taman nasional yang ada di Jawa Tengah"
+      ],
+      "responses": ["Taman Nasional KarimunJawa"]
+    },
+    {
+      "tag": "kain_jawa_tengah",
+      "patterns": [" Sebutkan kain yang khas dari Jawa Tengah"],
+      "responses": ["Kain batik parang, kawung, sekar jagat bumi"]
+    },
+    {
+      "tag": "suku_bangsa_jawa_barat",
+      "patterns": ["Suku bangsa apakah yang menempati provinsi Jawa Barat"],
+      "responses": [" sunda"]
+    },
+    {
+      "tag": "pakaian_adat_jawa_barat",
+      "patterns": [" Pakaian adat apakah yang khas dengan Jawa Barat"],
+      "responses": [" Kebaya sunda"]
+    },
+    {
+      "tag": "seni_tari_jawa_barat",
+      "patterns": ["Sebutkan seni tari yang ada di Jawa Barat"],
+      "responses": ["Tari Merak, Jaipong"]
+    },
+    {
+      "tag": "alat_musik_tradisional_jawa_barat",
+      "patterns": [" Sebutkan alat musik tradisional berasal dari Jawa Barat"],
+      "responses": ["Angklung, gembyung"]
+    },
+    {
+      "tag": "hewan_endemik_jawa_barat",
+      "patterns": ["Sebutkan hewan endemik yang berhabitat di Jawa Barat"],
+      "responses": [" Macan tutul jawa"]
+    },
+    {
+      "tag": "bahasa_masyarakat_jawa_barat",
+      "patterns": ["Sebutkan bahasa yang digunakan oleh masyarakat Jawa Barat"],
+      "responses": [" Sunda."]
+    },
+    {
+      "tag": "lagu_daerah_jawa_tengah",
+      "patterns": ["Sebutkan lagu daerah yang berasal dari Jawa Tengah"],
+      "responses": ["Gambang suling, lir ilir, padhang Bulan"]
+    },
+    {
+      "tag": "makanan_khas_jawa_tengah",
+      "patterns": ["Sebutkan makanan yang menjadi ciri khas dari Jawa Tengah"],
+      "responses": ["Selat Solo, Lumpia, lontong krubyuk"]
+    },
+    {
+      "tag": "bahasa_untuk_berkomunikasi",
+      "patterns": [
+        "Bahasa apa yang digunakan untuk berkomunikasi di provinsi Jawa Timur"
+      ],
+      "responses": ["Bahasa Jawa."]
+    },
+    {
+      "tag": "seni_tari_jawa_timur",
+      "patterns": ["Tarian apa saja yang ada di Jawa Timur"],
+      "responses": ["Tari Reog Ponorogo, Tari Jejer Gandrung dan  Tari Remo.."]
+    },
+    {
+      "tag": "banyak_pemain_tari_jejer",
+      "patterns": [" Berapa banyak pemain Tari Jejer Gandrung tersebut? "],
+      "responses": ["menari secara solo."]
+    },
+    {
+      "tag": "gerakan_tarian_jawa_timur",
+      "patterns": [
+        "Seperti apa gerakan tarian Jawa Timur yang akan diperagakan?"
+      ],
+      "responses": ["Badan tegak dengan kedua tungkai membuka. "]
+    },
+    {
+      "tag": "suku_mendominasi_jawa_timur",
+      "patterns": ["Suku apa yang mendominasi di Jawa Timur"],
+      "responses": ["Suku Jawa."]
+    },
+    {
+      "tag": "berapa_macam_suku_jawa_timur",
+      "patterns": ["Ada berapa macam Suku yang ada di provinsi Jawa Timur"],
+      "responses": ["Suku Jawa, Suku Madura, Suku Osing dan Suku Tengger."]
+    },
+    {
+      "tag": "hubungan_suku_jawa_timur",
+      "patterns": ["Hubungan seperti apa sesama suku yang ada di Jawa Timur"],
+      "responses": [" saling menghargai . "]
+    },
+    {
+      "tag": "adat_istiadat_jawa_timur",
+      "patterns": ["adat istiadat apa saja yang ada di Provinsi Jawa Timur"],
+      "responses": [
+        "Upacara Adat Ngurit, Upacara Adat Kebo-keboan dan Upacara Adat Dam Bagong."
+      ]
+    },
+    {
+      "tag": "kapan_adat_adat_dam",
+      "patterns": ["kapan adat Adat Dam Bagong  tersebut dirayakan"],
+      "responses": ["Diadakan 1 setahun sekali."]
+    },
+    {
+      "tag": "apa_adat_dam_bagong",
+      "patterns": ["Seperti apa adat Dam Bagong tersebut ketika diperagakan"],
+      "responses": [
+        "dilakukan dengan melempar kepala kerbau ke dalam Bendungan Dam"
+      ]
+    },
+    {
+      "tag": "berapa_macam_rumah_adat_jawa_timur",
+      "patterns": ["Ada berapa macam rumah adat yang ada Jawa Timur"],
+      "responses": [
+        "4 Macam yakni Rumah Joglo Hageng, Rumah Joglo Pangrawit, Rumah Joglo Situbondo dan Rumah Joglo Sinom"
+      ]
+    },
+    {
+      "tag": "rumah_adat_disinggahi_jawa_timur",
+      "patterns": [
+        "Rumah adat seperti apa yang sering disinggahi di Jawa Timur"
+      ],
+      "responses": ["Rumah Joglo Hageng."]
+    },
+    {
+      "tag": "bentuk_rumah_adat_joglo",
+      "patterns": ["bagaimana bentuk Rumah adat Rumah Joglo Hageng tersebut"],
+      "responses": [
+        "dua susunan berbentuk bubungan yang dibuat memanjang ke kiri dan kanan."
+      ]
+    },
+    {
+      "tag": "keistimewaan_tarian_adat_jawa_timur",
+      "patterns": ["keistimewaan apa yang ada di tarian adat Jawa Timur"],
+      "responses": ["menjaga kelestarian adat nya"]
+    },
+    {
+      "tag": "bahan_pakai_adat_jawa_timur",
+      "patterns": [
+        "bahan seperti apa yang digunakan untuk membuat pakai adat Provinsi Jawa Timur"
+      ],
+      "responses": ["Katun dan Sutra."]
+    },
+    {
+      "tag": "motif_pakaian_adat_jawa_timur",
+      "patterns": ["Bagaimana motif pada pakain adat Jawa Timur"],
+      "responses": ["motifnya sederhana."]
+    },
+    {
+      "tag": "penggunaan_pakaian_adat_jawa_timur",
+      "patterns": [
+        "Dipakai kapan ketika menggunakan Pakaian adat Jawa Timur tersebut"
+      ],
+      "responses": [
+        "ketika ada acara tertentu saja, ari Pahlawan, dan acara festival lainnya."
+      ]
+    },
+    {
+      "tag": "makanan_khas_jawa_timur",
+      "patterns": ["Makanan khas apa yang ada di Jawa Timur"],
+      "responses": [
+        "Rujak Soto, Soto Lamongan, Pecel Madiun , Bebek Sinjay dan Lontong Balap. "
+      ]
+    },
+    {
+      "tag": "berapa_macam_makan_khas_jawa_timur",
+      "patterns": ["Ada berapa macam makan khas didaerah Jawa Timur"],
+      "responses": ["9 Makanan Khas Jawa Timur"]
+    },
+    {
+      "tag": "makanan_soto_lamongan",
+      "patterns": [
+        "Bagaimana rasa makanan Soto Lamongan  yang paling Dicari wisataan"
+      ],
+      "responses": ["Rasa nya lezat dan enak sekali.."]
+    },
+    {
+      "tag": "wisata_jawa_timur",
+      "patterns": ["Wisata mana yang sangat dicari di daerah Jawa Timur"],
+      "responses": [
+        "Bukit Kapur Arosbaya, Kawah Ijen, Pantai Tambakrejo dan Air Tejun Nglirip."
+      ]
+    },
+    {
+      "tag": "beberapa_macam_wisata_jawa_timur",
+      "patterns": ["Ada beberapa macam wisata yang ada Jawa Timur"],
+      "responses": ["11 tempat wisata yang sangat direkomendasi. "]
+    },
+    {
+      "tag": "jumlah_pegujung_wisata_jawa_timur",
+      "patterns": ["Berapa banyak pengunjung ketika berwisata tersebut"],
+      "responses": ["4,052 juta orang pada tiap tahun nya."]
+    },
+    {
+      "tag": "pakaian_adat_jawa_tengah",
+      "patterns": ["Pakaian ada apa saja yang ada di Jawa Tengah"],
+      "responses": [
+        "Batik Jawa Tengah, Jawi Jangkep, Kebaya Jawa Tengah, Kanigaran dan Surjan."
+      ]
+    },
+    {
+      "tag": "pakaian_batik",
+      "patterns": ["Apa itu pakaian batik Jawa Tengah"],
+      "responses": [
+        "Pakaian adat Jawa Tengah tidak dapat dilepaskan dari penggunaan kain batik dengan berbagai motif sesuai daerah asalnya."
+      ]
+    },
+    {
+      "tag": "motif_pakaian_batik",
+      "patterns": ["Bagaimana motif pada pakaian batik Jawa Tengah"],
+      "responses": ["rumah adat baluk"]
+    },
+    {
+      "tag": "pakaian_adat_beskap",
+      "patterns": [" Apa itu pakaian adat beskap"],
+      "responses": [
+        "jenis baju adat Jawa Tengah untuk laki-laki. Beskap merupakan bagian dari Jawi Jingkep."
+      ]
+    },
+    {
+      "tag": "keunikan_pakaian_adat_beskap",
+      "patterns": ["Keunikan apa yang terdapat pada pakaian adat beskap"],
+      "responses": ["ukuran potongan depan yang miring atau tidak simetris."]
+    },
+    {
+      "tag": "pakaian_jarik",
+      "patterns": [" Apa itu pakaian jarik"],
+      "responses": ["kain dengan motif batik corak khas Jawa Tengah."]
+    },
+    {
+      "tag": "stagen",
+      "patterns": ["Apa itu stagen"],
+      "responses": [
+        "merupakan gulungan kain panjang yang dikenakan untuk membalut pinggang."
+      ]
+    },
+    {
+      "tag": "fungsi_pakaian_stagen",
+      "patterns": ["Fungsi apa yang terdapat pakaian stagen.?"],
+      "responses": [
+        "untuk menahan jarik agar tidak melorot atau jatuh. Selain itu, juga dikenakan agar membuat perut tidak buncit."
+      ]
+    },
+    {
+      "tag": "blangkon",
+      "patterns": ["Apa itu blangkon"],
+      "responses": [
+        "penutup kepala yang terbuat dari kain yang dililitkan dan diikat."
+      ]
+    },
+    {
+      "tag": "corak_blangkon",
+      "patterns": ["Corak lain pada blangkon"],
+      "responses": ["blangkon adalah batik larik."]
+    },
+    {
+      "tag": "ciri_blangkon",
+      "patterns": ["Ciri khas apa yang terdapat pada blangkon.?  "],
+      "responses": ["Tonjolan."]
+    },
+    {
+      "tag": "dua_ikat_pada_blangkon",
+      "patterns": [" Apa makna pada dua ikat pada blangkon "],
+      "responses": [
+        "merupakan simbol dua kalimat syahadat yang diikat kuat, maknanya bahwa seseorang harus mempunyai pendirian yang teguh."
+      ]
+    },
+    {
+      "tag": "kuluk",
+      "patterns": ["Apa itu kuluk"],
+      "responses": [
+        "pelengkap pakaian adat dimana penggunaan dan fungsinya seperti blangkon. "
+      ]
+    },
+    {
+      "tag": "penggunaan_kuluk",
+      "patterns": [" Dipakai kapan pakain kuluk digunakan"],
+      "responses": ["dikenakan oleh pria pada acara pernikahan."]
+    },
+    {
+      "tag": "lagu_daerah_jawa_barat",
+      "patterns": ["Sebutkan lagu daerah yang berasal dari Jawa Barat"],
+      "responses": ["Bubuy bulan, manuk dadali"]
+    },
+    {
+      "tag": "makanan_khas_jawa_barat",
+      "patterns": ["Sebutkan makanan yang menjadi ciri khas dari Jawa Barat"],
+      "responses": ["Dodol, tahu sumedang,."]
+    },
+    {
+      "tag": "bahasa_daerah_jawa_tengah",
+      "patterns": [
+        "Bahasa daerah yang digunakan oleh masyarakat provinsi Jawa Tengah adalah"
+      ],
+      "responses": ["bahasa Jawa ."]
+    },
+    {
+      "tag": "rumah_adat_khas_jawa_tengah",
+      "patterns": [
+        "Rumah adat yang menjadi ciri khas dari provinsi Jawa Tengah  adalah"
+      ],
+      "responses": [" rumah Joglo"]
+    },
+    {
+      "tag": "lagu_daerah_jawa_tengah",
+      "patterns": ["Sebutkan Lagu daerah yang berasal dari Jawa Tengah"],
+      "responses": ["Gundul-Gundul Pacul, Padang Bulan, Lir- Ilir"]
+    },
+    {
+      "tag": "ikon_paling_terkenal_indonesia",
+      "patterns": [
+        "Monas menjadi ikon yang paling terkenal di Indonesia yang berada di Provinsi"
+      ],
+      "responses": ["DKI Jakarta "]
+    },
+    {
+      "tag": "meseum_paling_terkenal_jakarta",
+      "patterns": [
+        "DKI Jakarta memiliki banyak latar belakang sejarah yang banyak, salah satu meseum paling terkenal  adalah"
+      ],
+      "responses": [" Meseum Fatahillah"]
+    },
+    {
+      "tag": "julukan_kota_bandung",
+      "patterns": [
+        "Julukan kota kembang tertuju kota Bandung yang menjadi Ibu kota dari provinsi"
+      ],
+      "responses": ["asal usul Tangkuban Perahu"]
+    },
+    {
+      "tag": "tari_tradisional_jawa_barat",
+      "patterns": ["Tari tradisional yang berasal Jawa Barat"],
+      "responses": ["Tari Merak"]
+    },
+    {
+      "tag": "taman_nasional_hewan_yang_dilindungi",
+      "patterns": [
+        "Salah satu taman Nasional terkenal karena terdapat hewan yang dilindungi yaitu, Badak jawa berada di provinsi"
+      ],
+      "responses": [" Banten"]
+    }
+  ]
+}
